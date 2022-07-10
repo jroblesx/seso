@@ -23,7 +23,7 @@ module.exports = (logSources, printer) => {
     };
 
     //Traverse elements on heap
-    const traverseHeap = async () => {
+    const traverseHeap = () => {
       if (heap.size == 0 && sources.size == 0) {
         printer.done();
         return;
